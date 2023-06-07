@@ -1,0 +1,25 @@
+/* build layout responsive using grid layout*/
+.grid-container {
+  display: grid;
+  gap: 1rem;
+}
+.col {
+  border-radius: 2px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+}
+.grid-container-detail {
+  display: grid;
+  grid-template-areas: "left left left left right right";
+  grid-column-gap: 10px;
+  /* 'footer footer footer footer footer footer'; */
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+.grid-left {
+  grid-area: left;
+}
+
+.grid-right {
+    grid-area: right;
+  }
