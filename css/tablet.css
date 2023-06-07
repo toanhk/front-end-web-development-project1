@@ -1,12 +1,17 @@
 @media (min-width: 768px) {
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .flex-container {
-      flex-direction: row;
-    }
-    .header-search {
-      text-align: right;
-    }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
+  .flex-container {
+    flex-direction: row;
+  }
+  .header-search {
+    text-align: right;
+  }
+
+  .grid-container-detail {
+    grid-template-areas: "left left left left right right";
+    /* 'footer footer footer footer footer footer'; */
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  }
+}

@@ -11,7 +11,9 @@
 }
 .grid-container-detail {
   display: grid;
-  grid-template-areas: "left left left left right right";
+  grid-template-areas:
+    "left left left left left left"
+    "right right right right right right";
   grid-column-gap: 10px;
   /* 'footer footer footer footer footer footer'; */
   /* grid-column-gap: 10px; - if you want gap between the columns */
@@ -21,5 +23,5 @@
 }
 
 .grid-right {
-    grid-area: right;
-  }
+  grid-area: right;
+}
