@@ -64,8 +64,8 @@ a {
   overflow: hidden;
 }
 
-.profile img {
-  width: 100%;
+img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -130,4 +130,31 @@ button {
   -webkit-transition-duration: 0.7s;
   -o-transition-duration: 0.7s;
   transition-duration: 0.7s;
+}
+
+.main-nav {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 10px;
+}
+
+.main-menu{
+  list-style: none;
+}
+
+.main-menu-items{
+  padding: 0 10px;
+  font-weight: 500;
+  
+}
+
+.main-menu-items a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.main-menu-items a:hover{
+  
+  color: #163291;
 }

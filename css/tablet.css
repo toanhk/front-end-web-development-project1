@@ -14,4 +14,9 @@
     /* 'footer footer footer footer footer footer'; */
     /* grid-column-gap: 10px; - if you want gap between the columns */
   }
+
+  .main-menu{
+    display: flex;
+    justify-items: center;
+  }
 }
